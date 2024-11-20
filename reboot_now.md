@@ -1,6 +1,6 @@
 ---
 title: "System - Genstart computeren NU"
-parent: "System"
+parent: "Core"
 nav_exclude: true
 source: /assets/os2borgerpc-scripts/common/system/reboot_now.sh
 compatibility: 
