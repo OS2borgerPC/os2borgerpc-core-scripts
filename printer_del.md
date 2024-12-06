@@ -1,7 +1,7 @@
 ---
 title: "Slet printer"
 parent: "Printer"
-source: os2borgerpc-scripts/os2borgerpc/printer/printer_del.sh
+source: scripts/printer_del.sh
 parameters:
   - name: "Navn"
     type: "string"
@@ -17,6 +17,6 @@ Slet den angivne printer.
 
 Det kan både være en regulær netværksprinter eller en Princh-printer.
 
-For at finde navnet på printeren, kan du køre scriptet "Printer - Vis printer-liste".
+For at finde navnet på printeren, kan du køre scriptet "Vis printer-liste".
 
 Dette script er blevet testet og virker på Ubuntu 22.04.

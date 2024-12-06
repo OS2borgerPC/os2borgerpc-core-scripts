@@ -1,7 +1,7 @@
 ---
-title: "System - Aktiver automatiske opdateringer fra Ubuntu"
+title: "Aktiver automatiske opdateringer fra Ubuntu"
 parent: "System"
-source: os2borgerpc-scripts/common/system/apt_periodic_control.sh
+source: scripts/apt_periodic_control.sh
 parameters:
   - name: "Aktiver generelle opdateringer (sikkerhed/alt/falsk)"
     type: "string"
@@ -14,22 +14,20 @@ compatibility:
 
 ## Beskrivelse
 Dette script aktiverer automatiske opdateringer fra Ubuntu.
+I nyere os2borgerpc-images er sikkerhedsopdateringer allerede slået til.
 
-Når du slår automatiske opdateringer til skal du vælge om du både vil have sikkerhedsopdateringer og generelle opdateringer slået til, eller blot sikkerhedsopdateringer.
+Du kan vælge om du ønsker:
+- sikkerhedsopdateringer + generelle opdateringer 
+- kun sikkerhedsopdateringer.
 
-Hvis du ønsker at det kun er sikkerhedsopdateringer der skal slåes til skal du tilføje parametren "sikkerhed". Hvis det derimod er både sikkerhedsopdateringer og generelle opdateringer skal du tilføje parametren "alt".
+Standard er kun sikkerhedsopdateringer.
 
-Hvis du ønsker at slå alle automatiske opdateringer fra (anbefales generelt ikke, men det kan være relevant som test), kan du køre scriptet med parametret "falsk".
+### Info om de to opdateringsmuligheder:
 
-Vær opmærksom på at med de nyeste os2borgerpc-images er sikkerhedsopdateringer allerede slået til.
-Magenta anbefaler at kun sikkerhedsopdateringer er slået til. Især hvis man gør brug af Google Chrome.
-
-Info om de to opdateringsmuligheder:
-
-Sikkerhedsopdateringer:
+**Sikkerhedsopdateringer:**
 De vigtigste opdateringer, som retter sårbarheder i systemet og dets programmer.
 
-Generelle opdateringer:
+**Generelle opdateringer:**
 Retter fejl og tilføjer nogle gange ny funktionalitet i tilføjelsesprogrammerne.
 
 Info omkring Ubuntus håndtering af automatiske opdateringer:
@@ -38,3 +36,9 @@ Info omkring Ubuntus håndtering af automatiske opdateringer:
 Hvis den missede en opdatering dagen før, fordi den var lukket ned på et af dens planlagte opdateringstidspunkter, vil den tjekke kort efter opstart.
 
 Dette script er blevet testet og virker på Ubuntu 22.04.
+
+## Parametre
+1. Aktiver generelle opdateringer (sikkerhed/alt/falsk)\
+sikkerhed: Kun sikkerhedsopdateringer\
+alt: Både sikkerhedsopdateringer og generelle opdateringer\
+falsk: Ingen opdateringer (anbefales ikke)

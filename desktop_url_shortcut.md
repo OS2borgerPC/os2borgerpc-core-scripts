@@ -1,7 +1,7 @@
 ---
 title: "Genvej til hjemmeside på skrivebord"
 parent: "Desktop"
-source: os2borgerpc-scripts/os2borgerpc/desktop/desktop_url_shortcut.sh
+source: scripts/desktop_url_shortcut.sh
 parameters:
   - name: "Aktivér?"
     type: "boolean"
@@ -11,7 +11,7 @@ parameters:
     type: "string"
     default: null
     mandatory: true
-  - name: "Navn på genvejen til websitet (ingen mellemrum!)"
+  - name: "Genvejsnavn"
     type: "string"
     default: null
     mandatory: true
@@ -31,12 +31,11 @@ Efter kørsel tager det effekt efter logud.
 Dette script er blevet testet og virker på Ubuntu 22.04.
 
 ## Parametre
-1. Sæt hak for at oprette genvejen, 
+1. Aktiver?: Sæt hak for at oprette genvejen, 
     Lad stå tom for at slette den, så fremt den findes.
-2. URL til webstedet
-3. Navnet genvejen skal have på skrivebordet.
+2. URL til webstedet. Ingen mellemrum. Husk `https://` eller `http://` foran - det skal være den fulde adresse (kopier den eventuelt fra adresselinien i browseren), fremfor eks. bare `eboks.dk` eller `www.eboks.dk`, som ikke vil virke.
+3. Genvejsnavn: Navnet genvejen skal have på skrivebordet.
     Bemærk at navnet ikke må indeholde mellemrum.
-4. Ikon. Du kan selv uploade et ikon-billede, eller du kan undlade og så bruger den et standardikon.
+4. Ikon. Du kan selv uploade et ikon-billede, eller du kan undlade og så bruger den et standardikon. Upload en kvadratisk .SVG- eller .PNG-fil.
 
-Bemærk: Husk https:// eller http:// foran - det skal være den fulde adresse (kopier den eventuelt fra adresselinien i browseren), fremfor eks. bare eboks.dk eller www.eboks.dk, som ikke vil virke.
 

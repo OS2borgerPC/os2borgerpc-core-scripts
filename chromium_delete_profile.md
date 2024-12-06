@@ -1,7 +1,7 @@
 ---
-title: "Chromium Ryd Cache NU"
+title: "Ryd Chromium Cache NU på Kiosk"
 parent: "Kiosk"
-source: os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_delete_profile.sh
+source: scripts/chromium_delete_profile.sh
 parameters:
 compatibility:  
   - "22.04"
@@ -9,6 +9,6 @@ compatibility:
 ---
 
 ## Beskrivelse
-Dette script sletter Chromiums profil (inkl. cache) ÉN GANG, hvilket nulstiller browserens historik.
+Dette script sletter Chromiums profil (inkl. cache), hvilket nulstiller gemte cookies og browserens historik.
 
 Dette script er blevet testet og virker på Ubuntu 22.04.

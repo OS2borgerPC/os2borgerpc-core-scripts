@@ -1,7 +1,7 @@
 ---
-title: "Chromium - Skift startside"
+title: "Skift startside for Chromium på Kiosk"
 parent: "Kiosk"
-source: os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_change_homepage.sh
+source: scripts/chromium_change_homepage.sh
 parameters:
   - name: "URL"
     type: "string"
@@ -15,7 +15,7 @@ compatibility:
 ## Beskrivelse
 Skifter startside i Chromium.
 
-Hvis du oplever scriptet fejle, genkør da OS2borgerPC Kiosk - Autostart Chromium før dette.
+Hvis du oplever scriptet fejle, genkør "Autostart Chromium" før dette.
 
 Dette script er blevet testet og virker på Ubuntu 22.04.
 

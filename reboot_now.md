@@ -1,5 +1,5 @@
 ---
-title: "System - Genstart computeren NU"
+title: "Genstart computeren NU"
 parent: "System"
 nav_exclude: true
 source: scripts/reboot_now.sh

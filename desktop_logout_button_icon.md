@@ -1,13 +1,13 @@
 ---
 title: "Genvej til logud fra skrivebord"
 parent: "Desktop"
-source: os2borgerpc-scripts/os2borgerpc/desktop/desktop_logout_button_icon.sh
+source: scripts/desktop_logout_button_icon.sh
 parameters:
   - name: "Aktiver?"
     type: "boolean"
     default: null
     mandatory: false
-  - name: "Navn på genvejen"
+  - name: "Genvejsnavn"
     type: "string"
     default: null
     mandatory: true
@@ -29,16 +29,13 @@ Tilføjer en logud-knap til skrivebordet, med valgfrit navn og ikon (uploades), 
 
 Log ud efter kørsel.
 
-BEMÆRK: Dette script forudsætter også at scriptet "Desktop - Aktiver genveje" køres for at aktivere knappen.
-Scriptet "Desktop - Aktiver genveje" har været indbygget i alle images siden image 5.0 og er derfor under udfasning.
-
 Dette script er blevet testet og virker på Ubuntu 22.04.
 
 ## Parametre
-1: Aktiver?:
+1. Aktiver?:
    Sæt hak: Genvejen tilføjes
    Lad stå tom: Genvejen fjernes
-2: Navn: Navnet du ønsker, knappen skal have på skrivebordet.
+2. Genvejsnavn: Navnet du ønsker, knappen skal have på skrivebordet.
 3. Bekræftelse på logud:
   Sæt hak: Borgeren spørges efter bekræftelse.
   Lad stå tom: Der genstartes øjeblikelligt, uden at spørge om bekræftelse (der er mulighed for at fortryde).

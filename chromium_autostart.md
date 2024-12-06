@@ -1,7 +1,7 @@
 ---
-title: "Chromium Autostart"
+title: "Autostart Chromium på Kiosk"
 parent: "Kiosk"
-source: os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_autostart.sh
+source: scripts/chromium_autostart.sh
 parameters:
   - name: "Forsinkelse"
     type: "int"
@@ -12,24 +12,28 @@ parameters:
     default: null
     mandatory: true
   - name: "Bredde"
-    type: "int"
-    default: null
+    type: "string"
+    default: "auto"
     mandatory: true
   - name: "Højde"
-    type: "int"
-    default: null
+    type: "string"
+    default: "auto"
     mandatory: true
   - name: "Orientation"
-    type: "string"
-    default: "normal"
-    mandatory: true  
+    type: "text_field"
+    default: "normal, inverted, left, right"
+    mandatory: false
+  - name: "Lås ned for browser-genvejstaster?"  
+    type: text_field
+    default: "0: Ingen nedlåsning af genvejstaster, 1: Lås genvejstaster bortset fra print genindlæs og zoom, 2: Lås alt"
+    mandatory: false
 compatibility:  
   - "22.04"
   - "Kiosk"
 ---
 
 ## Beskrivelse
-Start Chromium i kiosk-mode og sæt start-URL-en.
+Start Chromium i kiosk-mode og sæt startside URLen.
 
 Dette script forudsætter at følgendes scripts allerede er kørt:
 - Chromium Installer

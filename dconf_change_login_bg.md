@@ -1,7 +1,7 @@
 ---
 title: "Skift baggrundsbillede på loginskærm"
 parent: "Login"
-source: os2borgerpc-scripts/os2borgerpc/login/dconf_change_login_bg.sh
+source: scripts/dconf_change_login_bg.sh
 parameters:
   - name: "Aktivér?"
     type: "boolean"
@@ -19,9 +19,6 @@ compatibility:
 ## Beskrivelse
 Scriptet skifter baggrundsbilledet på loginskærmen.
 
-
-##### VEJLEDNING #####
-
 Undgå at bruge æøå i filnavnet, da det kan forårsage problemer.
 
 Billedets opløsning skal som minimum svare til skærmens opløsning.
@@ -32,27 +29,27 @@ For se en given maskines skærmopløsning samt størrelsesforhold, så log på s
 
 Eksempler på opløsninger til forskellige størrelsesforhold:
 
-4:3
-800 x 600
-1024 x 768
-1400 x 1050
+**4:3**\
+800 x 600\
+1024 x 768\
+1400 x 1050\
 1600 x 1200
 
-5:4
-1280 x 1024
+**5:4**\
+1280 x 1024\
 2560 x 2048
 
-16:9
-1366 x 768
-1600 x 900
-1920 x 1080
+**16:9**\
+1366 x 768\
+1600 x 900\
+1920 x 1080\
 2560 x 1440
 
-16:10
-1280 x 800
-1440 x 900
-1680 x 1050
-1920 x 1200
+**16:10**\
+1280 x 800\
+1440 x 900\
+1680 x 1050\
+1920 x 1200\
 2560 x 1600
 
 Dette script er blevet testet og virker på Ubuntu 22.04.

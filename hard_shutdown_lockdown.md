@@ -1,8 +1,7 @@
 ---
 title: "Bloker for login ved hård nedlukning"
 parent: "Sikkerhed"
-
-source: os2borgerpc-scripts/os2borgerpc/sikkerhed/hard_shutdown_lockdown.sh
+source: scripts/hard_shutdown_lockdown.sh
 parameters:
   - name: "Aktiver?"
     type: "boolean"
@@ -15,7 +14,7 @@ compatibility:
 
 ## Beskrivelse
 Dette script låser bruger-kontoen ved en hård nedlukning (f.eks. hvis man hiver strømstikket ud eller slukker maskinen på knappen).
-Dets primære formål er at være med til at forhindre borgere i at omgå scriptet "Sikkerhed - Bloker for login ved USB-event".
+Dets primære formål er at være med til at forhindre borgere i at omgå scriptet "Bloker for login ved USB-event".
 
 SIKKERHEDSMÆSSIGE OVERVEJELSER:
 En BorgerPC kan kun overvåges af software såsom sikkerhedsscripts, så længe, den er tændt.
@@ -29,18 +28,16 @@ Det er en god idé at verificere at det virker, hvis computeren slukkes på knap
 
 Dette script bruges sammen:
 
-- Scriptet "Desktop - Fjern Luk Ned, Genstart og Hviletilstand fra menuen"
+- Scriptet "Fjern Luk Ned, Genstart og Hviletilstand fra menuen"
 ...så Borgeren ikke bare kan lukke computeren ned fra menuen, så fjernelse af strømstik eller knappen på maskinen er eneste mulighed for at slukke den.
 
-- Sikkerhedsscriptet "Detekter låst/udløbet bruger event", hvis man ønsker en advarsel, når Borger-kontoen låses.
-
 Når man så oplever, at Borger-kontoen er blevet låst, kan den låses op med Scriptet:
-"Sikkerhed - Sæt Borger som aktiv efter blokeret login (lås op)".
+"Sæt Borger som aktiv efter blokeret login (lås op)".
 
 Dette script er blevet testet og virker på Ubuntu 22.04.
 
 ## Parametre
-Aktivér:
-  Sæt hak: Blokering af login ved hård nedlukning slås til
+1. Aktivér:\
+  Sæt hak: Blokering af login ved hård nedlukning slås til\
   Lad stå tom: Blokering af login ved hård nedlukning slås fra (standard)
 

@@ -1,7 +1,7 @@
 ---
 title: "Genvej til program fra menu"
 parent: "Desktop"
-source: os2borgerpc-scripts/os2borgerpc/desktop/desktop_launcher_program_shortcut.sh
+source: scripts/desktop_launcher_program_shortcut.sh
 parameters:
   - name: "Tilføj programmet?"
     type: "boolean"
@@ -17,7 +17,7 @@ compatibility:
 ---
 
 ## Beskrivelse
-Tilføjer/Fjerner en genvej i menuen til venstre, ved siden af skrivebordet.
+Tilføj/fjern en genvej i menuen til venstre, ved siden af skrivebordet.
 Dette script er blevet testet og virker på Ubuntu 22.04.
 
 ## Parametre

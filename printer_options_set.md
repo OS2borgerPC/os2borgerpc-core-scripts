@@ -1,7 +1,7 @@
 ---
-title: "Sæt indstillinger"
+title: "Sæt indstillinger for printer"
 parent: "Printer"
-source: os2borgerpc-scripts/os2borgerpc/printer/printer_options_set.sh
+source: scripts/printer_options_set.sh
 parameters:
   - name: "Printer-navn"
     type: "string"
@@ -31,18 +31,17 @@ compatibility:
 ## Beskrivelse
 Script, der sætter de printer-indstillinger (kaldet "Options" i Linux-printersystemet CUPS), der er forespurgt og fundet.
 
-Kør scriptet "Printer - Vis printer-indstillinger" for at se, hvilke indstillingsmuligheder, den givne printer har.
-
-Vil kun virke, hvis der er en PPD-fil eller hvis printeren er sat op med IPP Everywhere.
-
-NB: De konkrete muligheder og værdier kan variere fra printer til printer.
+Kør scriptet "Vis printer-indstillinger" for at se, hvilke indstillingsmuligheder, den givne printer har. 
+  De konkrete muligheder og de navnene for værdierne kan nemlig variere fra printer til printer.
+- Hvis du ønsker at sætte indstillinger som orientering og duplex for en Princh-printer, skal dette i stedet gøres via Princh's egen Princh Admin.
+- Vil kun virke, hvis der er en PPD-fil eller hvis printeren er sat op med IPP Everywhere.
 
 Dette script er blevet testet og virker på Ubuntu 22.04.
 
 ## Parametre
-  1: Printer-navn
-  2: Papirstørrelse
-  3: Farve eller sort-hvid
-  4: Duplex
-  5: Print-orientering
+1. Printer-navn
+2. Papirstørrelse
+3. Farve eller sort-hvid
+4. Duplex
+5. Print-orientering
 

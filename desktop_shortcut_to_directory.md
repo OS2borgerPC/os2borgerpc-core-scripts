@@ -1,7 +1,7 @@
 ---
-title: "Genvej til valgfri mappe fra skrivebordet"
+title: "Genvej på skrivebordet til valgfri mappe"
 parent: "Desktop"
-source: os2borgerpc-scripts/os2borgerpc/desktop/desktop_shortcut_to_directory.sh
+source: scripts/desktop_shortcut_to_directory.sh
 parameters:
   - name: "Tilføj?"
     type: "boolean"
@@ -11,7 +11,7 @@ parameters:
     type: "string"
     default: null
     mandatory: true
-  - name: "Navn på genvej"
+  - name: "Genvejsnavn"
     type: "string"
     default: null
     mandatory: true
@@ -21,13 +21,13 @@ compatibility:
 ---
 
 ## Beskrivelse
-Opretter en genvej til en valgfri mappe på Skrivebordet.
+Opretter/fjerner en genvej på skrivebordet til en valgfri mappe.
 Dette script er blevet testet og virker på Ubuntu 22.04.
 
 ## Parametre
-1. Stien til mappen (eksempelvis: "/home/user/Dokumenter" )
-2. Navnet på genvejen (eksempelvis: "Skannede filer" )
-...begge uden citationstegnene rundt om.
+1. Tilføj?:  Sæt hak: Genvejen tilføjes til Skrivebordet. Fjern hak: Genvejen fjernes fra Skrivebordet (hvis det ligger der)
+2. Stien til mappen (eksempelvis: `/home/user/Dokumenter`) Bemærk at ift. stien, så har store og små bogstaver en betydning!
+3. Genvejsnavn: (eksempelvis: `Skannede filer` )
 
-Bemærk at ift. stien, så har store og små bogstaver en betydning!
+
 

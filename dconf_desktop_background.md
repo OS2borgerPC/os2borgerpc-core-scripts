@@ -1,15 +1,15 @@
 ---
 title: "Skift baggrundsbillede på skrivebordet"
 parent: "Desktop"
-source: os2borgerpc-scripts/os2borgerpc/desktop/dconf_desktop_background.sh
+source: scripts/dconf_desktop_background.sh
 parameters:
   - name: "Baggrundsbillede"
     type: "file"
     default: null
     mandatory: true
   - name: "Billedeindstillinger (se muligheder i beskrivelsen)"
-    type: "string"
-    default: "zoom"
+    type: "text_field"
+    default: "zoom, centered, stretched, scaled, spanned, wallpaper, none"
     mandatory: false
 compatibility:  
   - "22.04"

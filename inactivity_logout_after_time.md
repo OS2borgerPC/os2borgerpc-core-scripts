@@ -1,7 +1,7 @@
 ---
-title: "Log Borger ud efter X minutters inaktivitet med besked"
+title: "Log Borger ud efter X minutters inaktivitet"
 parent: "Sikkerhed"
-source: os2borgerpc-scripts/os2borgerpc/sikkerhed/inactivity_logout_after_time.sh
+source: scripts/inactivity_logout_after_time.sh
 parameters:
   - name: "Aktiver?"
     type: "boolean"

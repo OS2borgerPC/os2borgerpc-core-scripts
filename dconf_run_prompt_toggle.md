@@ -1,7 +1,7 @@
 ---
 title: "Juster adgang til kør prompt (ALT-F2)"
 parent: "Sikkerhed"
-source: os2borgerpc-scripts/os2borgerpc/sikkerhed/dconf_run_prompt_toggle.sh
+source: scripts/dconf_run_prompt_toggle.sh
 parameters:
   - name: "Slå kør prompt fra"
     type: "boolean"
@@ -12,8 +12,6 @@ compatibility:
   - "22.04"
   - "BorgerPC"
 included_in_image: true
-
-
 ---
 
 ## Beskrivelse

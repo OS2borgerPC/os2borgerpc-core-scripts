@@ -1,7 +1,7 @@
 ---
 title: "Ændr login-timeout"
 parent: "Login"
-source: os2borgerpc-scripts/os2borgerpc/login/change_login_timeout.sh
+source: scripts/change_login_timeout.sh
 parameters:
   - name: "Antal sekunder"
     type: "int"
@@ -20,7 +20,7 @@ Hvis du ønsker nærmest øjeblikkelig login, kan den sættes til 2 sekunder. Te
 
 Scriptet tager oftest først effekt efter genstart.
 
-Dette script antager, at automatisk login er slået til. Det er det som standard, men hvis det inden er blevet slået fra via scriptet "OS2borgerPC - Automatisk borgerlogin til/fra", vil dette script ikke have nogen effekt.
+Dette script antager, at automatisk login er slået til. Det er det som standard, men hvis det inden er blevet slået fra via scriptet "Automatisk borgerlogin til/fra", vil dette script ikke have nogen effekt.
 
 Hvis du ønsker at deaktivere automatisk login helt, kan det i stedet gøres med førnævnte script.
 

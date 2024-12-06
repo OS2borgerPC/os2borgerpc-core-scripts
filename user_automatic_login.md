@@ -1,7 +1,7 @@
 ---
 title: "Automatisk borgerlogin til/fra"
 parent: "Login"
-source: os2borgerpc-scripts/os2borgerpc/login/user_automatic_login.sh
+source: scripts/user_automatic_login.sh
 parameters:
   - name: "Aktiver automatisk borgerlogin"
     type: "boolean"
@@ -28,10 +28,11 @@ Scriptet tager oftest først effekt efter genstart.
 Dette script er blevet testet og virker på Ubuntu 22.04.
 
 ## Parametre
-  Aktiver automatisk borgerlogin:
-    Sæt hak: Slår automatisk borgerlogin til
-    Lad stå tom: Slår automatisk borgerlogin fra
-  Borger skal indtaste kodeord:
-     Dette parameter har kun effekt, hvis hak er udeladt i første parameter.
-     Sæt hak: Borger skal indtaste kodeord for at logge ind
-     Lad stå tom: Borger logger ind ved at trykke på login-knappen, uden kodeord
+1. Aktiver automatisk borgerlogin:\
+Sæt hak: Slår automatisk borgerlogin til\
+Lad stå tom: Slår automatisk borgerlogin fra
+
+2. Borger skal indtaste kodeord:\
+(Denne parameter har kun effekt, hvis hak er udeladt i første parameter)\
+Sæt hak: Borger skal indtaste kodeord for at logge ind\
+Lad stå tom: Borger logger ind ved at trykke på login-knappen, uden kodeord

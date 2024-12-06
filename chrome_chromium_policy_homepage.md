@@ -1,7 +1,7 @@
 ---
 title: "Chrome/Chromium: Sæt startside(r)"
 parent: "Browser"
-source: os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_policy_homepage.sh
+source: scripts/chrome_chromium_policy_homepage.sh
 parameters:
   - name: "Startside-URL"
     type: "string"
@@ -28,14 +28,15 @@ Dette script er blevet testet og virker på Ubuntu 22.04.
 1. Startside-URL : tekststreng
 2. Ekstra faneblade : tekststreng
 
-##### Eksempel med startside plus en ekstra fane #####
+### Eksempel med startside plus 1 ekstra fane
 
-Startside-URL  : https://borger.dk
-Ekstra faneblade : https://info.jobnet.dk/
+Startside-URL: `https://borger.dk` \
+Ekstra faneblade: `https://info.jobnet.dk/`
 
-##### Eksempel med startside plus 3 ekstra faner #####
+### Eksempel med startside plus 3 ekstra faner
 
-URL'erne separes med | som forneden.
+URL'erne separes med `|` som vist herunder.
 
-Ekstra faneblade : https://info.jobnet.dk/|https://skat.dk|https://www.sundhed.dk/
+Startside-URL: `https://borger.dk` \
+Ekstra faneblade: `https://info.jobnet.dk/|https://skat.dk|https://www.sundhed.dk/`
 

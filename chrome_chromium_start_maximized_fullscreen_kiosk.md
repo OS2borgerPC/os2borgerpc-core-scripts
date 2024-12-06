@@ -1,11 +1,11 @@
 ---
 title: "Chrome/Chromium: Start i maksimeret, fuld skærm eller kiosk tilstand"
 parent: "Browser"
-source: os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_start_maximized_fullscreen_kiosk.sh
+source: scripts/chrome_chromium_start_maximized_fullscreen_kiosk.sh
 parameters:
   - name: "Ønsket tilstand (se beskrivelse)"
-    type: "int"
-    default: null
+    type: "text_field"
+    default: "none,maximized,fullscreen,kiosk"
     mandatory: true
 compatibility:  
   - "22.04"
@@ -13,19 +13,17 @@ compatibility:
 ---
 
 ## Beskrivelse
-Indstil Chrome til at åbne eller ikke at åbne i maksimeret tilstand, fuld skærm eller kiosk tilstand som standard.
+Indstil Chrome/Chromium til at åbne eller ikke at åbne i maksimeret tilstand, fuld skærm eller kiosk tilstand som standard.
 Der skal logges ud eller genstartes før det tager effekt.
 
-Forudsætter at "Chrome - Installer" tidligere er blevet kørt.
-
-Teknisk note: Disse sættes pt. i .desktop-filerne fremfor via Chrome politikker, da det desværre ikke pt. er muligt at styre disse via sidstnævnte fra Googles side.
-
-Dette script er blevet testet og virker på Ubuntu 22.04.
+Forudsætter at "Chrome - Installer" eller "Chromium - Installer" tidligere er blevet kørt.
 
 ## Parametre
-Scriptet tager kun ét parameter, som er et tal. Følgende tal svarer til følgende indstilling:
--  0: Slå både maksimeret, fuld skærm og kiosk fra 
--  1: Slå maksimeret til
--  2: Slå fuld skærm til
--  3: Slå kiosk til
+Scriptet tager kun ét parameter. Der vælges mellem `none`, `maximized`, `fullscreen` eller `kiosk`. 
+
+`none` svarer til standardindstillingen, hvor hverken maksimeret, fuld skærm eller kiosk er aktiveret.
+
+Teknisk note: Disse sættes pt. i .desktop-filerne fremfor via browser-politikker, da det desværre ikke pt. er muligt at styre disse via sidstnævnte fra Googles side.
+
+Dette script er blevet testet og virker på Ubuntu 22.04.
 
