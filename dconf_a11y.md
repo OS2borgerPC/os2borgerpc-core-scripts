@@ -1,7 +1,7 @@
 ---
 title: "Vis tilgængelighedsfunktioner"
 parent: "Desktop"
-source: scripts/desktop/dconf_a11y.sh
+source: scripts/dconf_a11y.sh
 parameters:
   - name: "Aktivér?"
     type: "boolean"
