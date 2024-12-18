@@ -1,5 +1,5 @@
 ---
-title: "xxxx"
+title: "Fix Light Display Manager Opstarts-fejl"
 parent: "Anbefalede sikkerhedsscripts"
 source: scripts/lightdm_fix_boot_error.sh
 parameters:
