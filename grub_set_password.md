@@ -10,6 +10,9 @@ parameters:
 compatibility: 
   - "22.04"
   - "BorgerPC"
+included_in_image: true
+metadata:
+  hidden: "true"
 ---
 
 ## Beskrivelse
@@ -27,5 +30,7 @@ Det er dog muligt at ændre det igen hvis man glemmer kodeordet.
 
 *Note: GRUB (og GRUB2) er kort sagt en "bootloader", ligesom BOOTMGR og NTLDR i Windows. 
            Du kan læse nærmere om den her: https://help.ubuntu.com/community/Grub2
+
+Dette script indgår i OS2BorgerPC image version 4.0.0 og fremadrettet. Det sætter et tilfældigt genereret GRUB password.
 
 Dette script er blevet testet og virker på Ubuntu 22.04.

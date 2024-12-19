@@ -11,6 +11,9 @@ compatibility:
   - "22.04"
   - "BorgerPC"
   - "Kiosk"
+included_in_image: true
+metadata:
+  hidden: "true"
 ---
 
 ## Beskrivelse
@@ -22,4 +25,5 @@ Eksempel: Intervallet er 5 minutter, så kan jobmanageren potentielt køre hvert
 
 Starttidspunktet er valgt tilfældigt inden for et interval.
 
+Dette script er inkluderet i OS2BorgerPC image fra version 4.0.0 og fremadrettet.
 Dette script er blevet testet og virker på Ubuntu 22.04.

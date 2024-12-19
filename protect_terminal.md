@@ -14,11 +14,13 @@ included_in_image: true
 ---
 
 ## Beskrivelse
-Scriptet kan spærre adgangen til terminalen for publikumsbrugeren. superuser har stadig adgang.
+Scriptet kan spærre adgangen til terminalen for publikumsbrugeren, men superuser har stadig adgang.
 
 Scriptet tager først fuld effekt efter logud.
 
-SIKKERHEDSMÆSSIGE OVERVEJELSER:
+Bør bruges sammen med scriptet "Juster adgang til kør prompt (ALT-F2)".
+
+### Sikkerhedsmæssige overvejelser
 Bemærk, at brugerens adgang til terminalen ikke i sig selv er et sikkerhedshul. Brugeren kan fra terminalen gøre præcis de ting, som vedkommende har tilladelse til i forvejen.
 
 Hvis brugeren er i stand til at udfordre systemets sikkerhed fra terminalen, skyldes det altså de underliggende tilladelser - ikke terminaladgangen - som ikke gør en grundlæggende forskel.
@@ -35,5 +37,6 @@ Vi bestræber os dog stadig på også at løse de underliggende sikkerhedsproble
 --------------------
 
 Dette script er blevet testet og virker på Ubuntu 22.04.
+Det er inbygget i OS2BorgerPC image v. 5.3.0
 
 Udviklet og testet i samarbejde med Aarhus kommune.

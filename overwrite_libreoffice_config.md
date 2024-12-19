@@ -14,6 +14,7 @@ parameters:
 compatibility:  
   - "22.04"
   - "BorgerPC"
+included_in_image: true
 ---
 
 ## Beskrivelse
@@ -22,6 +23,8 @@ Script der overskriver LibreOffices config med vores egen.
 Kræver at brugeren logger ud og ind igen før indstillingerne træder i kraft.
 
 Dette script er blevet testet og virker på Ubuntu 22.04.
+Indbygget i OS2BorgerPC image fra version 5.0.0, men er gradvist forbedret.
+
 
 ## Parametre
 1. Sæt kryds for at slå "Tip of the Day" og frigivelsesnoter fra. Lad stå tom for at slå dem til.

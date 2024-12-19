@@ -14,11 +14,10 @@ parameters:
 compatibility:  
   - "22.04"
   - "BorgerPC"
+included_in_image: true
 ---
 
 ## Beskrivelse
-Udviklet og testet i samarbejde med Aarhus kommune.
-
 Scriptet fjerner alle default startsider (inkl. fanen "Firefox Privacy Notice"), som køres hver gang Firefox startes for første gang i en given ny bruger-session. 
 
 Scriptet implementerer policies, der bla.a. deaktiverer slut-brugers' mulighed for at installere udvidelser samt at logge på(browser sync). 
@@ -28,7 +27,10 @@ For mere info de konkrete implementerede policies henvises til at læse scriptet
 https://github.com/mozilla/policy-templates 
 
 Udover at sætte startsiden kan man også tilføje en liste yderligere ekstra faner man kunne tænke sig. Læs mere forneden.
+
 Dette script er blevet testet og virker på Ubuntu 22.04.
+Indbygget i OS2BorgerPC image version 5.0.0 og senere hvor det køres med parameteren https://borger.dks
+Udviklet og testet i samarbejde med Aarhus kommune.
 
 ## Parametre
 Startside-URL : tekststreng \

@@ -21,12 +21,12 @@ Hvis borgere gives adgang til indstillinger, vil ændringer de foretager dog *ge
 Indstillinger -> Privatliv -> Tjek af forbindelse
 ...kan ændres permanent!
 
-Det mest nedlåste er, hvis borgere ikke har adgang til indstillinger, hvilket er standardindstillingen på nyere images (3.1.0 og nyere images).
-Vi FRARÅDER pga. ovenstående at Borger gives adgang til Indstillinger.
+Standardindstillingen er at borgere ikke har adgang til indstillinger. Vi FRARÅDER pga. ovenstående at Borger gives adgang til Indstillinger.
 
 Dette script påvirker kun Borger-kontoen - superuser har altid adgang til Indstillinger, men superusers ændringer i Indstillinger påvirker ikke Borger - eller omvendt.
 
 Dette script er blevet testet og virker på Ubuntu 22.04. 
+Indbygget i OS2BorgerPC image version 3.1.0 og nyere.
 
 ## Parametre
 Sæt hak: Borger har adgang til Indstillinger
