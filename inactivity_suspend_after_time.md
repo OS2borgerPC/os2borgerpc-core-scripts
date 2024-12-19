@@ -26,8 +26,7 @@ parameters:
     type: "string"
     default: null
     mandatory: false
-metadata:
-  uid: "suspend_after_time"
+uid: "suspend_after_time"
 ---
 
 ## Beskrivelse

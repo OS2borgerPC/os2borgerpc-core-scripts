@@ -14,8 +14,7 @@ parameters:
     type: "string"
     default: null
     mandatory: true
-metadata:
-  uid: "two_factor"
+uid: "two_factor"
 ---
 
 ## Beskrivelse

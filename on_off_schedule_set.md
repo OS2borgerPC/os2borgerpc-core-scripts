@@ -70,10 +70,9 @@ parameters:
 compatibility:
   - "22.04"
   - "BorgerPC"
-metadata:
-  uid: "wake_plan_set"
-  security: false
-  hidden: true
+uid: "wake_plan_set"
+security: false
+hidden: true
 ---
 
 ## Beskrivelse
