@@ -1,5 +1,6 @@
 ---
 title: "Tilføj netværksprinter"
+version: 1
 parent: "Printer"
 source: scripts/network_printer_add_no_ppd.sh
 parameters:

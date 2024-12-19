@@ -1,5 +1,6 @@
 ---
 title: "Aktiver dvale efter X minutters inaktivitet"
+version: 1
 parent: "Sikkerhed"
 source: scripts/inactivity_suspend_after_time.sh
 compatibility:

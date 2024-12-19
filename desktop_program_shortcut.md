@@ -1,5 +1,6 @@
 ---
 title: "Genvej til program fra skrivebordet"
+version: 1
 parent: "Desktop"
 source: scripts/desktop_program_shortcut.sh
 parameters:

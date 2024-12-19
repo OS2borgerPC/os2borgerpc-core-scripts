@@ -1,5 +1,6 @@
 ---
 title: "Detekter sudo-kørsel"
+version: 1
 parent: "Sikkerhed"
 source: scripts/detect_sudo_event.py
 compatibility:  

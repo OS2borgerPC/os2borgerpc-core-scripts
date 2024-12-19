@@ -1,5 +1,6 @@
 ---
 title: "Slet printer"
+version: 1
 parent: "Printer"
 source: scripts/printer_del.sh
 parameters:

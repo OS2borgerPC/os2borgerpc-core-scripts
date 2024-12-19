@@ -1,5 +1,6 @@
 ---
 title: "Sæt NumLock-tilstand"
+version: 1
 parent: "System"
 source: scripts/lightdm_enable_numlock.sh
 parameters:

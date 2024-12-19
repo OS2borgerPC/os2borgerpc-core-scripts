@@ -1,5 +1,6 @@
 ---
 title: "Opret delt Samba-mappe til skan"
+version: 1
 parent: "Skanner"
 source: scripts/scans_samba_dir.sh
 parameters:

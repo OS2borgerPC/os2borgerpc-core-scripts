@@ -1,5 +1,6 @@
 ---
 title: "Tillad superuser at redigere indstillinger"
+version: 1
 parent: "Anbefalede sikkerhedsscripts"
 source: scripts/allow_superuser_to_manage_cups.sh
 parameters:

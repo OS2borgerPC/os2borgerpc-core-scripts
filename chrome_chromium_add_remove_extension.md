@@ -1,5 +1,6 @@
 ---
 title: "Chrome/Chromium: Tilføj/Fjern Udvidelse(r)"
+version: 1
 parent: "Browser"
 source: scripts/chrome_chromium_add_remove_extension.sh
 summary: "Tilføjer/fjerner en eller flere Chrome/Chromium-Udvidelser til/fra browserens ExtensionSettings policy"

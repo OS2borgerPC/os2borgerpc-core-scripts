@@ -1,5 +1,6 @@
 ---
 title: "Send løbende antal login dagligt til adminsitet"
+version: 1
 parent: "Login"
 source: scripts/get_daily_login_count.sh
 parameters:

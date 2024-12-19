@@ -1,5 +1,6 @@
 ---
 title: "Desktop: Fjern lås fra menuen"
+version: 1
 parent: "Anbefalede sikkerhedsscripts"
 source: scripts/dconf_disable_lock_menu.sh
 parameters:

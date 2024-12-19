@@ -1,5 +1,6 @@
 ---
 title: "Aktiver automatiske opdateringer fra Ubuntu"
+version: 1
 parent: "System"
 source: scripts/apt_periodic_control.sh
 parameters:

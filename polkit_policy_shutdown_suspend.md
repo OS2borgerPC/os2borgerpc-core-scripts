@@ -1,5 +1,6 @@
 ---
 title: "Fjern Luk Ned, Genstart og Hviletilstand fra menuen"
+version: 1
 parent: "Sikkerhed"
 source: scripts/polkit_policy_shutdown_suspend.sh
 parameters:

@@ -1,5 +1,6 @@
 ---
 title: "GRUB: Skift kodeord"
+version: 1
 parent: "System"
 source: scripts/grub_set_password.py
 parameters:

@@ -1,5 +1,6 @@
 ---
 title: "Genvej på skrivebordet til valgfri mappe"
+version: 1
 parent: "Desktop"
 source: scripts/desktop_shortcut_to_directory.sh
 parameters:

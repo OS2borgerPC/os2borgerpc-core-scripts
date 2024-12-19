@@ -1,5 +1,6 @@
 ---
 title: "Chromium med skærmtastatur (onboard)"
+version: 1
 parent: "Kiosk"
 source: scripts/wm_keyboard_install.sh
 parameters:

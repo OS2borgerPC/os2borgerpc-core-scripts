@@ -1,5 +1,6 @@
 ---
 title: "Desktop - Fjern besked om opdatering / opgradering"
+version: 1
 parent: "Anbefalede sikkerhedsscripts"
 source: scripts/remove_new_release_message.sh
 parameters:

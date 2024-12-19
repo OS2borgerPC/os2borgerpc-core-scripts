@@ -1,5 +1,6 @@
 ---
 title: "Tænd/Sluk tidsplaner - Fjern tidsplan"
+version: 1
 parent: "System"
 source: scripts/on_off_schedule_remove.sh
 compatibility:

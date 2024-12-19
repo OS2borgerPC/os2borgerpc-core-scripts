@@ -1,5 +1,6 @@
 ---
 title: "Login - Slå scriptkørsel ved login til"
+version: 1
 parent: "Anbefalede sikkerhedsscripts"
 source: scripts/lightdm_greeter_setup_scripts.sh
 parameters:

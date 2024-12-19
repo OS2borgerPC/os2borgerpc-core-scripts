@@ -1,5 +1,6 @@
 ---
 title: "Skift kodeord for superuser"
+version: 1
 parent: "System"
 source: scripts/change_superuser_password.sh
 parameters:

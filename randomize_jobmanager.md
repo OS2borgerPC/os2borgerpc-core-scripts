@@ -1,5 +1,6 @@
 ---
 title: "Jobmanager: Skift start-tidspunkt og interval"
+version: 1
 parent: "System"
 source: scripts/randomize_jobmanager.sh
 parameters:

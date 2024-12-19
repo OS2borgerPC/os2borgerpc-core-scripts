@@ -1,5 +1,6 @@
 ---
 title: "Vis indstillinger for printer"
+version: 1
 parent: "Printer"
 source: scripts/printer_options_get.sh
 parameters:

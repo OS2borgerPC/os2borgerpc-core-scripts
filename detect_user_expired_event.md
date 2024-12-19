@@ -1,5 +1,6 @@
 ---
 title: "Detekter låst Borgerkonto"
+version: 1
 parent: "Sikkerhed"
 source: scripts/detect_user_expired_event.py
 compatibility:  

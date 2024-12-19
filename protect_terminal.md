@@ -1,5 +1,6 @@
 ---
 title: "Juster adgang til terminalen"
+version: 1
 parent: "Sikkerhed"
 source: scripts/protect_terminal.sh
 parameters:

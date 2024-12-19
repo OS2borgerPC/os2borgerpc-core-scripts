@@ -1,5 +1,6 @@
 ---
 title: "Juster adgang til Indstillinger"
+version: 1
 parent: "Sikkerhed"
 source: scripts/adjust_settings_access.sh
 parameters:

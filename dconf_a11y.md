@@ -1,5 +1,6 @@
 ---
 title: "Vis tilgængelighedsfunktioner"
+version: 1
 parent: "Desktop"
 source: scripts/dconf_a11y.sh
 parameters:

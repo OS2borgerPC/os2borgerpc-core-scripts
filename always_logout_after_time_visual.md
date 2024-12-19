@@ -1,5 +1,6 @@
 ---
 title: "Log altid ud efter X minutter med nedtæller"
+version: 1
 parent: "Sikkerhed"
 source: scripts/always_logout_after_time_visual.sh
 parameters:

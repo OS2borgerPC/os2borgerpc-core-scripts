@@ -1,5 +1,6 @@
 ---
 title: "Sæt indstillinger for printer"
+version: 1
 parent: "Printer"
 source: scripts/printer_options_set.sh
 parameters:

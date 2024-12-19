@@ -1,5 +1,6 @@
 ---
 title: "Vis printerliste"
+version: 1
 parent: "Printer"
 source: scripts/printer_list.sh
 parameters:

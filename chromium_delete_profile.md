@@ -1,5 +1,6 @@
 ---
 title: "Ryd Chromium Cache NU på Kiosk"
+version: 1
 parent: "Kiosk"
 source: scripts/chromium_delete_profile.sh
 parameters:

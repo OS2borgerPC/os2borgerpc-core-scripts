@@ -1,5 +1,6 @@
 ---
 title: "Log Borger ud efter X minutters inaktivitet"
+version: 1
 parent: "Sikkerhed"
 source: scripts/inactivity_logout_after_time.sh
 parameters:

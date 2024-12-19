@@ -1,5 +1,6 @@
 ---
 title: "Bloker for login ved hård nedlukning"
+version: 1
 parent: "Sikkerhed"
 source: scripts/hard_shutdown_lockdown.sh
 parameters:

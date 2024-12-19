@@ -1,5 +1,6 @@
 ---
 title: "Skift baggrundsbillede på skrivebordet"
+version: 1
 parent: "Desktop"
 source: scripts/dconf_desktop_background.sh
 parameters:

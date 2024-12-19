@@ -1,5 +1,6 @@
 ---
 title: "Totrinsbekræftelse for superuser"
+version: 1
 parent: "Sikkerhed"
 source: scripts/setup_two_factor_superuser.sh
 compatibility:

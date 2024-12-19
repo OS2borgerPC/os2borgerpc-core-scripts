@@ -1,5 +1,6 @@
 ---
 title: "Lås menu"
+version: 1
 parent: "Sikkerhed"
 source: scripts/dconf_gnome_lock_menu_editing.sh
 parameters:

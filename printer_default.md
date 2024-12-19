@@ -1,5 +1,6 @@
 ---
 title: "Sæt standardprinter"
+version: 1
 parent: "Printer"
 source: scripts/printer_default.sh
 parameters:

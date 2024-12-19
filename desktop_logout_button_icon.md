@@ -1,5 +1,6 @@
 ---
 title: "Genvej til logud fra skrivebord"
+version: 1
 parent: "Desktop"
 source: scripts/desktop_logout_button_icon.sh
 parameters:

@@ -1,5 +1,6 @@
 ---
 title: "Fjern Network Managers Forbindelsestjek (Netics)"
+version: 1
 parent: "System"
 source: scripts/disable_network_connectivity_check.sh
 parameters:

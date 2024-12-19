@@ -1,5 +1,6 @@
 ---
 title: "Genvej til hjemmeside på skrivebord"
+version: 1
 parent: "Desktop"
 source: scripts/desktop_url_shortcut.sh
 parameters:

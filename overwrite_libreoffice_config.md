@@ -1,5 +1,6 @@
 ---
 title: "LibreOffice - Sæt indstillinger"
+version: 1
 parent: "Programmer"
 source: scripts/overwrite_libreoffice_config.sh
 parameters:

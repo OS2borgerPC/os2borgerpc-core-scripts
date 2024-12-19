@@ -1,5 +1,6 @@
 ---
 title: "Genstart computeren NU"
+version: 1
 parent: "System"
 nav_exclude: true
 source: scripts/reboot_now.sh

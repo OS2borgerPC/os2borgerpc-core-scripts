@@ -1,5 +1,6 @@
 ---
 title: "Opdater alle installererede programmer nu"
+version: 1
 parent: "System"
 source: scripts/update_all.sh
 parameters:

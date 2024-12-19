@@ -1,5 +1,6 @@
 ---
 title: "Skjul superuser fra loginskærm og vis eventuelt loginfelt til valgfri bruger"
+version: 1
 parent: "Login"
 source: scripts/lightdm_hide_superuser.sh
 parameters:

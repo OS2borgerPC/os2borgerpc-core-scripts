@@ -1,5 +1,6 @@
 ---
 title: "Aktiver genveje på Desktop"
+version: 1
 parent: "Desktop"
 source: scripts/desktop_activate_shortcuts.sh
 parameters:

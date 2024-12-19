@@ -1,5 +1,6 @@
 ---
 title: "Juster Ubuntu Dock (programmenu)"
+version: 1
 parent: "Desktop"
 source: scripts/dconf_ubuntu_dock_adjust.sh
 parameters:

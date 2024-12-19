@@ -1,5 +1,6 @@
 ---
 title: "Slå skriverettigheder for skrivebord fra/til"
+version: 1
 parent: "Sikkerhed"
 source: scripts/desktop_toggle_writable.sh
 parameters:

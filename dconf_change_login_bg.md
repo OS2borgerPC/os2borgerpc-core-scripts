@@ -1,5 +1,6 @@
 ---
 title: "Skift baggrundsbillede på loginskærm"
+version: 1
 parent: "Login"
 source: scripts/dconf_change_login_bg.sh
 parameters:
