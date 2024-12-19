@@ -1,5 +1,6 @@
 ---
 title: "Detekter nytilsluttet keyboard"
+version: 1
 parent: "Sikkerhed"
 source: scripts/detect_keyboard_event.py
 compatibility:  

@@ -1,5 +1,6 @@
 ---
 title: "Installér Chromium på Kiosk"
+version: 1
 parent: "Kiosk"
 source: scripts/chromium_install.sh
 parameters:

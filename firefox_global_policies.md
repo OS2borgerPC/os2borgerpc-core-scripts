@@ -1,5 +1,6 @@
 ---
 title: "Firefox: Sæt startside(r)"
+version: 1
 parent: "Browser"
 source: scripts/firefox_global_policies.sh
 parameters:

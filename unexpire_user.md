@@ -1,5 +1,6 @@
 ---
 title: "Sæt Borger som aktiv efter blokeret login (lås op)"
+version: 1
 parent: "Sikkerhed"
 source: scripts/unexpire_user.sh
 parameters:

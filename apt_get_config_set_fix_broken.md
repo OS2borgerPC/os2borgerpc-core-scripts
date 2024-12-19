@@ -1,5 +1,6 @@
 ---
 title: "xxxx"
+version: 1
 parent: "Anbefalede sikkerhedsscripts"
 source: scripts/apt_get_config_set_fix_broken.sh
 parameters:

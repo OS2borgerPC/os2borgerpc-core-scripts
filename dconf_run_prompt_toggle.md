@@ -1,5 +1,6 @@
 ---
 title: "Juster adgang til kør prompt (ALT-F2)"
+version: 1
 parent: "Sikkerhed"
 source: scripts/dconf_run_prompt_toggle.sh
 parameters:

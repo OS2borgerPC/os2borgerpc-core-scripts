@@ -1,5 +1,6 @@
 ---
 title: "Bloker for login ved USB-event"
+version: 1
 parent: "Sikkerhed"
 source: scripts/lockdown_usb.sh
 parameters:

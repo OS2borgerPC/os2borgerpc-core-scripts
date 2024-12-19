@@ -1,5 +1,6 @@
 ---
 title: "Installer SSH og VNC på Kiosk"
+version: 1
 parent: "Kiosk"
 source: scripts/vnc_and_ssh_install.sh
 parameters:

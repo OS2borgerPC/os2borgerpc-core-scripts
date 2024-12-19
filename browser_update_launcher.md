@@ -1,5 +1,6 @@
 ---
 title: "Udskift browser-genvejen i venstremenuen med en valgfri browser"
+version: 1
 parent: "Browser"
 source: scripts/browser_update_launcher.sh
 summary: "Udskifter browser-knappen i venstremenuen (der som standard er Firefox) med en valgfri browser."

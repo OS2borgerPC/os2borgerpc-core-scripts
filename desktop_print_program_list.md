@@ -1,5 +1,6 @@
 ---
 title: "Vis programliste"
+version: 1
 parent: "Desktop"
 source: scripts/desktop_print_program_list.sh
 parameters:

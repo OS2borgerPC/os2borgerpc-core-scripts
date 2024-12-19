@@ -1,5 +1,6 @@
 ---
 title: "Desktop - Fjern brugerskifte fra menuen"
+version: 1
 parent: "Anbefalede sikkerhedsscripts"
 source: scripts/dconf_disable_user_switching.sh
 parameters:
