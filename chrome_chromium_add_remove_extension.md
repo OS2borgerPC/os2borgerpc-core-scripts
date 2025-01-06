@@ -3,7 +3,6 @@ title: "Chrome/Chromium: Tilføj/Fjern Udvidelse(r)"
 version: 1
 parent: "Browser"
 source: scripts/chrome_chromium_add_remove_extension.sh
-summary: "Tilføjer/fjerner en eller flere Chrome/Chromium-Udvidelser til/fra browserens ExtensionSettings policy"
 parameters:
   - name: "Aktivér"
     type: "boolean"
@@ -19,12 +18,14 @@ compatibility:
 ---
 
 ## Beskrivelse
-Udviklet og testet i samarbejde med Aarhus kommune.
+Tilføjer/fjerner en eller flere Chrome/Chromium-Udvidelser til/fra browserens ExtensionSettings policy
 
 1. Kan tilføje/fjerne en liste af Chrome/Chromium-Udvidelser til/fra browserens ExtensionSettings policy.
 2. Kan slette browserens ExtensionSettings policy.
 
 (Læs det hele inden du kører scriptet)
+
+Udviklet og testet i samarbejde med Aarhus kommune.
 
 ### For installere udvidelser
 

@@ -19,16 +19,15 @@ included_in_image: true
 ---
 
 ## Beskrivelse
-Udviklet og testet i samarbejde med Aarhus kommune.
-
 Scriptet fjerner Luk Ned, Genstart og Hviletilstand fra menuen og blokerer også for de samme via systempolitik, så eks. genstart/luk ned i så fald heller ikke kan køres fra terminalen af Borger.
 
-SIKKERHEDSMÆSSIGE OVERVEJELSER:
-Disse muligheder er fjernet i nyere images af den årsag, at sikkerhedsscripts ikke kan overvåge maskinen, når den er slukket.
-Dvs. en angriber kunne potentielt slukke maskinen, indsætte en keylogger ml. tastatur og computer, og så tænde computeren igen.
+### Sikkerhedsmæssige overvejelser
+Disse muligheder er fjernet fra OS2BorgerPC image 5.0.0 og fremadrettet af den årsag, at sikkerhedsscripts ikke kan overvåge maskinen, når den er slukket. Dvs. en angriber kunne potentielt slukke maskinen, indsætte en keylogger ml. tastatur og computer, og så tænde computeren igen.
 Af samme grund har vi også udviklet scriptet "Bloker for login ved hård nedlukning" for at forhindre at der lukkes ned på andre måder end menuen, dvs. ved at trykke på knappen eller hive strømstikket ud.
 
 Dette script er blevet testet og virker på Ubuntu 22.04.
+Det er indbygget i OS2BorgerPC image v. 5.0.0 og fremadrettet. Det er dog blevet løbende udbygget.
+Udviklet og testet i samarbejde med Aarhus kommune.
 
 ## Parametre
 

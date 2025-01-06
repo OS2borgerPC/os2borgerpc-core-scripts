@@ -6,8 +6,7 @@ source: scripts/detect_user_expired_event.py
 compatibility:  
   - "22.04"
   - "BorgerPC"
-metadata:
-  security: true
+security: true
 ---
 
 ## Beskrivelse

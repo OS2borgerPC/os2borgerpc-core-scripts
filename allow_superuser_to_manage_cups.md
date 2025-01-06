@@ -1,7 +1,7 @@
 ---
-title: "Tillad superuser at redigere indstillinger"
+title: "Tillad superuser at redigere CUPS-indstillinger"
 version: 1
-parent: "Anbefalede sikkerhedsscripts"
+parent: "Printer"
 source: scripts/allow_superuser_to_manage_cups.sh
 parameters:
 compatibility:  
@@ -11,8 +11,6 @@ included_in_image: true
 ---
 
 ## Beskrivelse
-Beskrivelse
-
 Dette script er indbygget i image 5.2.0 og fremover.
 
 Specifikt giver kørsel af dette script superuser tilladelse til at kunne redigere diverse printerindstillinger, 

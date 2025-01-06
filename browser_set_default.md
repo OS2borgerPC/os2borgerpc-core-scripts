@@ -3,7 +3,6 @@ title: "Sæt standard-browser"
 version: 1
 parent: "Browser"
 source: scripts/browser_set_default.sh
-summary: "Skifter standard-browseren ml. eksempelvis Firefox og Chrome."
 parameters:
   - name: "Ønsket standardbrowser"
     type: "text_field"
@@ -16,6 +15,7 @@ parameters:
 compatibility:  
   - "22.04"
   - "BorgerPC"
+included_in_image: true
 ---
 
 ## Beskrivelse
@@ -27,6 +27,7 @@ Hvis maskinen i stedet skal bruge f. eks. Chrome som standardbrowser, forudsætt
 Det kan være nødvendigt med logud, før det tager effekt.
 
 Dette script er blevet testet og virker på Ubuntu 22.04.
+Anvendes i OS2BorgerPC image 5.0.0 og senere til at sætte Firefox til standardbrowseren. Det er hensigtsmæssigt, da Firefox er den eneste medfølgende browser på en OS2BorgerPC. Chrome skal særskilt installeres via script.
 
 ## Parametre
 `firefox` skifter standardbrowseren til Firefox, `google-chrome` skifter den til Chrome.

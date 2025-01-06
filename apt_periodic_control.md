@@ -11,6 +11,7 @@ parameters:
 compatibility: 
   - "22.04"
   - "BorgerPC"
+included_in_image: true
 ---
 
 ## Beskrivelse
@@ -37,6 +38,7 @@ Info omkring Ubuntus håndtering af automatiske opdateringer:
 Hvis den missede en opdatering dagen før, fordi den var lukket ned på et af dens planlagte opdateringstidspunkter, vil den tjekke kort efter opstart.
 
 Dette script er blevet testet og virker på Ubuntu 22.04.
+Dette script er inkluderet i OS2BorgerPC image fra version 5.0.0, hvor det køres med parameter "sikkerhed",
 
 ## Parametre
 1. Aktiver generelle opdateringer (sikkerhed/alt/falsk)\

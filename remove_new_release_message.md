@@ -1,21 +1,21 @@
 ---
-title: "Desktop - Fjern besked om opdatering / opgradering"
+title: "Fjern besked om opdatering / opgradering"
 version: 1
-parent: "Anbefalede sikkerhedsscripts"
+parent: "Desktop"
 source: scripts/remove_new_release_message.sh
 parameters:
 compatibility:  
   - "22.04"
   - "BorgerPC"
 included_in_image: true
+hidden: "true"
 ---
 
 ## Beskrivelse
-Dette script er i kategorien "Udfases" da det er indbygget i image 5.0.0 og nyere.
+Dette script fjerner popup om ny LTS-version. Det er meget vigtigt, da en BorgerPC-installation bliver uopretteligt ødelagt, hvis en medarbejder i bedste mening logger ind som superuser og trykker opdater.
 
-Dette script fjerner popup om ny LTS-version.
-
-Dette script er blevet testet og virker på Ubuntu 22.04.
+Dette script er blevet testet og virker på Ubuntu 22.04. 
+Indbygget i OS2BorgerPC image version 5.0.0 og nyere. Det er også kørt i forbindelse med opgradering fra Ubuntu 20.04 til 22.04.
 
 ## Parametre
 Ingen.
