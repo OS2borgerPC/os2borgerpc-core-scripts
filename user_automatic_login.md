@@ -1,5 +1,6 @@
 ---
 title: "Automatisk borgerlogin til/fra"
+version: 1
 parent: "Login"
 source: scripts/user_automatic_login.sh
 parameters:

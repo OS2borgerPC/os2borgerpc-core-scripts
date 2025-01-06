@@ -1,5 +1,6 @@
 ---
 title: "Autostart Chromium på Kiosk"
+version: 1
 parent: "Kiosk"
 source: scripts/chromium_autostart.sh
 parameters:

@@ -1,5 +1,6 @@
 ---
 title: "Slå automatisk netværksprinter-finding fra/til"
+version: 1
 parent: "Printer"
 source: scripts/printer_toggle_network_discovery.sh
 parameters:

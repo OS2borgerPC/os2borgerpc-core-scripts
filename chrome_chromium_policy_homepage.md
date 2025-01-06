@@ -1,5 +1,6 @@
 ---
 title: "Chrome/Chromium: Sæt startside(r)"
+version: 1
 parent: "Browser"
 source: scripts/chrome_chromium_policy_homepage.sh
 parameters:

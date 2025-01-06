@@ -1,5 +1,6 @@
 ---
 title: "Autostart program"
+version: 1
 parent: "System"
 source: scripts/autostart_program.sh
 parameters:

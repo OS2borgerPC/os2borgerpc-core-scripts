@@ -1,5 +1,6 @@
 ---
 title: "Genvej til program fra menu"
+version: 1
 parent: "Desktop"
 source: scripts/desktop_launcher_program_shortcut.sh
 parameters:

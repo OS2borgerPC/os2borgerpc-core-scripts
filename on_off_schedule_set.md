@@ -1,5 +1,6 @@
 ---
 title: "Tænd/Sluk tidsplaner - Opret tidsplan"
+version: 1
 parent: "System"
 source: scripts/on_off_schedule_set.sh
 parameters:

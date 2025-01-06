@@ -1,5 +1,6 @@
 ---
 title: "Bloker for GNOME Remote Desktop (Fjernskrivebord)"
+version: 1
 parent: "Anbefalede sikkerhedsscripts"
 source: scripts/dconf_disable_gnome_remote_desktop.sh
 parameters:
