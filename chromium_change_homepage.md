@@ -1,5 +1,6 @@
 ---
 title: "Skift startside for Chromium på Kiosk"
+version: 1
 parent: "Kiosk"
 source: scripts/chromium_change_homepage.sh
 parameters:

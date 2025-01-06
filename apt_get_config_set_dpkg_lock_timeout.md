@@ -1,5 +1,6 @@
 ---
 title: "APT: Wait 5 min for dpkg lock"
+version: 1
 parent: "System"
 source: scripts/apt_get_config_set_dpkg_lock_timeout.sh
 parameters:

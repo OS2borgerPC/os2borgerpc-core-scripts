@@ -1,5 +1,6 @@
 ---
 title: "Chromium med skærmtastatur skjul/vis (onboard)"
+version: 1
 parent: "Kiosk"
 source: scripts/wm_keyboard_hide_button.sh
 parameters:

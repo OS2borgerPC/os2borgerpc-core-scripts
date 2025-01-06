@@ -1,5 +1,6 @@
 ---
 title: "Fjern brugerskifte fra menuen"
+version: 1
 parent: "Desktop"
 source: scripts/dconf_disable_user_switching.sh
 parameters:

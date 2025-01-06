@@ -1,5 +1,6 @@
 ---
 title: "Ændr login-timeout"
+version: 1
 parent: "Login"
 source: scripts/change_login_timeout.sh
 parameters:

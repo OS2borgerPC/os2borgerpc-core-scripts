@@ -1,5 +1,6 @@
 ---
 title: "Sæt Borger som standard ved login"
+version: 1
 parent: "Login"
 source: scripts/set_user_as_default_lightdm_user.sh
 parameters:

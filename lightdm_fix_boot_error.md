@@ -1,5 +1,6 @@
 ---
 title: "Fix Light Display Manager Opstarts-fejl"
+version: 1
 parent: "System"
 source: scripts/lightdm_fix_boot_error.sh
 parameters:

@@ -1,5 +1,6 @@
 ---
 title: "Installer Princh Cloud Printer"
+version: 1
 parent: "Printer"
 source: scripts/printer_princh_install.sh
 parameters:

@@ -1,5 +1,6 @@
 ---
 title: "Luk ned dagligt"
+version: 1
 parent: "System"
 source: scripts/shutdown_at_time.sh
 parameters:

@@ -1,5 +1,6 @@
 ---
 title: "Sæt standard-browser"
+version: 1
 parent: "Browser"
 source: scripts/browser_set_default.sh
 parameters:

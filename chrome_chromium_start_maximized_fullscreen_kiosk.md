@@ -1,5 +1,6 @@
 ---
 title: "Chrome/Chromium: Start i maksimeret, fuld skærm eller kiosk tilstand"
+version: 1
 parent: "Browser"
 source: scripts/chrome_chromium_start_maximized_fullscreen_kiosk.sh
 parameters:

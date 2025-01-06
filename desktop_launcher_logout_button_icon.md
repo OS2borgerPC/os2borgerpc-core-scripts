@@ -1,5 +1,6 @@
 ---
 title: "Genvej til logud fra menu"
+version: 1
 parent: "Desktop"
 source: scripts/desktop_launcher_logout_button_icon.sh
 parameters:
