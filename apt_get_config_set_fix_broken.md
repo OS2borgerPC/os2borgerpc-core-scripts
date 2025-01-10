@@ -13,7 +13,7 @@ compatibility:
   - "BorgerPC"
   - "Kiosk"
 included_in_image: true
-hidden: "true"
+hidden: true
 ---
 
 ## Beskrivelse

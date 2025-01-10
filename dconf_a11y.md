@@ -11,7 +11,7 @@ parameters:
 compatibility:  
   - "22.04"
   - "BorgerPC"
-included_in_image: true
+included_in_image: "true"
 ---
 
 ## Beskrivelse

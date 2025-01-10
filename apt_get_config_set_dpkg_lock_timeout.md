@@ -13,7 +13,7 @@ compatibility:
   - "BorgerPC"
   - "Kiosk"
 included_in_image: true
-hidden: "true"
+hidden: true
 ---
 ## Beskrivelse
 Indstillingen dpkg lock timeout påvirker, hvor længe apt-get kommandoen vil vente på, at dpkg låsen frigives, før den giver en timeout.
