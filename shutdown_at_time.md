@@ -4,10 +4,6 @@ version: 1
 parent: "System"
 source: scripts/shutdown_at_time.sh
 parameters:
-  - name: "Aktiver"
-    type: "boolean"
-    default: null
-    mandatory: false
   - name: "Timer"
     type: "int"
     default: null
