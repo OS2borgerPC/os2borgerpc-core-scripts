@@ -9,13 +9,13 @@ parameters:
     default: null
     mandatory: false
   - name: "Timer"
-    type: "string"
+    type: "int"
     default: null
     mandatory: true
   - name: "Minutter"
     type: "int"
-    default: null
-    mandatory: false
+    default: 0
+    mandatory: true
 compatibility: 
   - "22.04"
   - "BorgerPC"
