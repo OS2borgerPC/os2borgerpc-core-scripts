@@ -5,12 +5,11 @@ parent: "System"
 source: scripts/shutdown_at_time.sh
 parameters:
   - name: "Timer"
-    type: "int"
+    type: "string"
     default: null
     mandatory: true
   - name: "Minutter"
-    type: "int"
-    default: 0
+    type: "string"
     mandatory: true
 compatibility: 
   - "22.04"
@@ -27,9 +26,10 @@ NB: Brugeren har ingen mulighed for at undgå nedlukning.
 Dette script er blevet testet og virker på Ubuntu 22.04.
 
 ## Parametre
-1. Aktiver: Sæt hak for at aktiverer automatisk nedlukning. Lad stå tom for at stoppe automatisk nedlukning.
-2. Timer: Angiver hvilket timetal computeren lukker ned.
-3. Minutter: Angiver hvilket minuttal computeren lukker ned.
+1. Timer: Angiver hvilket timetal computeren lukker ned.
+2. Minutter: Angiver hvilket minuttal computeren lukker ned.
+
+Scriptet kan kaldes med '--off' som 1. parameter for at fjerne en planlagt nedlukning.
 
 Eksempel:
 Hvis du i timer og minutter angiver henholdsvis "20" og "30", så vil maskinen dagligt lukke ned kl. 20:30.
