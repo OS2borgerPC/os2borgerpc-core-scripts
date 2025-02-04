@@ -1,6 +1,6 @@
 ---
 title: "Tilføj Princh Cloud Printer"
-version: 1
+version: 2
 parent: "Printer"
 source: scripts/printer_options_set.sh
 parameters:
