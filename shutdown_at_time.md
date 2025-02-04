@@ -10,7 +10,8 @@ parameters:
     mandatory: true
   - name: "Minutter"
     type: "string"
-    mandatory: true
+    default: 0
+    mandatory: false
 compatibility: 
   - "22.04"
   - "BorgerPC"
