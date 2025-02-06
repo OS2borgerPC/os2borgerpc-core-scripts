@@ -1,8 +1,8 @@
 ---
 title: "Tilføj Princh Cloud Printer"
-version: 1
+version: 2
 parent: "Printer"
-source: scripts/printer_options_set.sh
+source: scripts/printer_princh_add.sh
 parameters:
   - name: "Navn (OBS: INGEN ÆØÅ, mellemrum eller apostrofer)"
     type: "string"
