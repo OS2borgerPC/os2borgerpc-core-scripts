@@ -187,6 +187,10 @@ if [ "$INSTALL" = "True" ]; then
 
   setup_policies
 
+  # Add a marker file to prevent first boot EULA pop-ups.
+  mkdir -p "/home/.skjult/.config/google-chrome"
+  touch "/home/.skjult/.config/google-chrome/First Run"
+
   # Chrome: Disable its own check for updates
   # It would be more elegant to control this via a policy, but unfortunately that does not seem to be possible currently
   # Add this launch argument to all desktop files in case the customer's

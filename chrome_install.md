@@ -18,16 +18,13 @@ Udviklet og testet i samarbejde med Aarhus kommune.
 
 Installerer Google Chrome - kan også bruges til at opdatere Google Chrome.
 
-Siden sidste udgave er der nu tilføjet nedenstående til OS2borgerpcs default Chrome policy, som gør at borger **ikke** kan:
-
-- Logge på(BrowserSync) Chrome med en Google-konto
-- Installere udvidelser. (Administrator kan styre dette centralt vha. scriptet "Chrome: Tilføj/fjern Udvidelser")
-- Tilgå Chrome' Udviklerværktøjer
-- Gemme sine logins
-- Ændre/tilføje startside(r)
-- Bruge Chromecast
-- Web data som cookies og web databaser preserveres ikke efter nedlukning af browser.
-- Tilgå udvalgte chrome-settings URL'er. 
+I den sidste udgave, var der tilføjet en marker fil i borgeren's home skabelon, som forbygger at chrome spørger brugeren om de vil give samtykke til EULA.
+Det som blev tilføjet til koden:
+```bash
+  # Add a marker file to prevent first boot EULA pop-ups.
+  mkdir -p "/home/.skjult/.config/google-chrome"
+  touch "/home/.skjult/.config/google-chrome/First Run"
+```
 
 Chrome-policies der fremgår i scriptet kan man læse mere om ved at søge på en given policy(fx ForceEphemeralProfiles) her: https://chromeenterprise.google/policies/ 
 
