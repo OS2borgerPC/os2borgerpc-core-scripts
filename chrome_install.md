@@ -1,6 +1,6 @@
 ---
 title: "Installer Chrome"
-version: 1
+version: 2
 parent: "Browser"
 source: scripts/chrome_install.sh
 parameters:
