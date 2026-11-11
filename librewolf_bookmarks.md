@@ -1,5 +1,6 @@
 ---
 title: "LibreWolf: Overskriv LibreWolf bogmærker"
+version: 1
 parent: "Browser"
 source: scripts/librewolf_bookmarks.sh
 parameters:

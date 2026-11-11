@@ -1,5 +1,6 @@
 ---
 title: "LibreWolf: Overskriv LibreWolf startsider"
+version: 1
 parent: "Browser"
 source: scripts/librewolf_startpages.sh
 parameters:

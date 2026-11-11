@@ -1,5 +1,6 @@
 ---
 title: "LibreWolf: Installér LibreWolf"
+version: 1
 parent: "Browser"
 source: scripts/librewolf_install.sh
 parameters:
